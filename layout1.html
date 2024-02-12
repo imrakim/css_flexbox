@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex layout</title>
+    <style>
+        div,
+        p {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .header {
+            padding: 10px;
+            background-color: rgb(255, 123, 0);
+            height: 30px;
+            color: white;
+            line-height: 30px;
+            text-align: center;
+        }
+
+
+        .footer {
+          padding-top: 10px;
+            padding: 0;
+            padding: 10px;
+            background-color: rgb(79, 16, 228);
+            text-align: center;
+            color: white;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .paragraph1{
+            background-color: rgb(231, 70, 21);
+            width: 200px;
+            height: 300px;
+            text-align: justify;
+            order: 1;
+
+        }
+
+        .paragraph2{
+            width: 800px;
+            min-height: 300px;
+            text-align: justify;
+            background-color: beige;
+            order: 2;
+        }
+
+        .paragraph3{
+            background-color: rgb(131, 235, 12);
+            width: 200px;
+            height: 300px;
+            text-align: justify;
+            order: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">HEADER</div>
+        <div class="main">
+            <div class="paragraph1"> ipsum dolor sit amet consectetur adipisicing elit. Sunt dolore
+                laborum quaerat, enim esse cupiditate amet, assumenda animi maiores totam officiis excepturi dolorum
+                aspernatur corporis accusamus laboriosam quae eveniet voluptate numquam eius. Porro corporis ea
+                distinctio aperiam.</div>
+            <div class="paragraph2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    repudiandae consequatur, nostrum illo, possimus deserunt sunt fugiat aut distinctio nam aliquam
+                    repellat! Illum
+                    et quae commodi cupiditate neque iure voluptate illo iusto quod inventore! Exercitationem a
+                    voluptatem
+                    ex sequi incidunt harum provident velit unde dolorum, quibusdam ut reiciendis laudantium doloremque
+                    porroquod possimus distinctio cum adipisci blanditiis, quos veritatis voluptas est eius dolores!
+                    Odio,
+                    et!Eveniet at laborum sunt. Accusantium sapiente reprehenderit voluptatibus inventore similique,
+                    explicabomagnam! Debitis culpa perspiciatis, saepe dolores sint, nulla enim consequatur ab nihil
+                    architecto
+                    illumquia, repellendus quisquam aut illo et? Omnis voluptas, blanditiis dignissimos vero inventore
+                    delectus necessitatibus recusandae, quod in possimus ipsum aut corporis quibusdam, aspernatur vel
+                    aperiam! Ad
+                    ipsa dolore ipsum, quis quisquam nisi iste aut ab quas doloribus repellat architecto cumque libero
+                    dolorem blanditiis id tempore recusandae. Labore, natus quam iste iure earum, aliquam minima quidem
+                    inventore dolor eaque corrupti vero quisquam? Natus qui mollitia velit, voluptatem deleniti enim
+                    suscipit, facilis exercitationem rerum blanditiis ab dignissimos, ducimus hic aliquid vel. Beatae
+                    odit
+                    labore recusandae pariatur, animi commodi eos accusamus! A, explicabo? Nostrum nesciunt neque
+                    laboriosam, temporibus impedit nemo enim pariatur nobis laudantium soluta velit quaerat doloremque
+                    magnam odio reiciendis totam in.
+                </p>
+            </div>
+            <div class="paragraph3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolore
+                laborum quaerat, enim esse cupiditate amet, assumenda animi maiores totam officiis excepturi dolorum
+                aspernatur corporis accusamus laboriosam quae eveniet voluptate numquam eius. Porro corporis ea
+                distinctio aperiam, consequuntur, asperiores dolorem sapiente ducimus dolore voluptates dolorum aut
+                exercitationem consequatur. Quibusdam, est.</div>
+        </div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+
+</html>
