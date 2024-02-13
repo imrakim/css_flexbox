@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url(/navbar/assets/aurora.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav .main{
+    display: flex;
+    text-align: right;
+}
+.header .logo{
+    text-align: left;
+}
+
